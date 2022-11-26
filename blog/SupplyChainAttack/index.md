@@ -8,7 +8,7 @@ taxonomy:
         - kubernetes
 ---
 
-![Broken Chain](/_images/chain-broken.png)
+![Broken Chain](/_images/chain-broken.jpg)
 
 # La Supply Chain Attack ?
 
