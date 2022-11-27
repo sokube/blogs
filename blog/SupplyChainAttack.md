@@ -19,7 +19,7 @@ taxonomy:
 
 # La Supply Chain Attack ?
 
-![Broken Chain](/_images/chain-broken.jpg)
+![Broken Chain](/_images/chain-broken-nobg.png)
 
 Changement de paradigme
 
