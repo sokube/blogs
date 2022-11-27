@@ -16,7 +16,6 @@ taxonomy:
 #     field2: value 2        
 ---
 
-![Broken Chain](/_images/chain-broken.jpg)
 
 # La Supply Chain Attack ?
 
