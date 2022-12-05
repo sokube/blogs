@@ -12,8 +12,8 @@ taxonomy:
         - cicd
         - kubernetes
 custom_fields:
-    ByGit: true
-#     field2: value 2        
+    field1: value 1
+    field2: value 2    
 ---
 
 
