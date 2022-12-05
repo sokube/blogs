@@ -11,8 +11,8 @@ taxonomy:
         - security
         - cicd
         - kubernetes
-# custom_fields:
-#     ByGit: true
+custom_fields:
+    ByGit: true
 #     field2: value 2        
 ---
 
