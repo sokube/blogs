@@ -48,6 +48,8 @@ Une « supply chain attack » est une cyberattaque qui cherche à nuire à une o
 
 * Adapter la fréquence de mise à jour à sa capacité à déployer
 
+![MAJ Deps](/_images/Blog_SupplyChain_03_MAJ_Deps.png)
+
 
 * Réduire ses dépendances
 * Considérer des outils de veille
