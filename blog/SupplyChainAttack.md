@@ -60,7 +60,7 @@ Une « supply chain attack » est une cyberattaque qui cherche à nuire à une o
 * Utiliser semver pour les mises à jour !
 
 
-==> Test de non régression obligatoire
+==> Test de non régression obligatoire !!!
 
 
 
