@@ -6,8 +6,9 @@ post_status: publish
 # post_excerpt: A WordPress excerpt is basically a summary of a longer article, often used as a replacement on the blog index and archives pages to avoid needing to display the full content of each post. By default, WordPress generates excerpts by simply selecting the first 55 words of a post
 taxonomy:
     category: 
-        - DevSecOps
         - DevOps
+        - Security
+        - CI/CD
     post_tag:
         - security
         - cicd
