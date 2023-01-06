@@ -1,5 +1,5 @@
 ---
-title: Comment se protéger d'une "Supply Chain Attack" ??
+title: Comment se protéger d'une "Supply Chain Attack" ?
 # menu_order: 1
 # post_status can be publish, draft, pending, future
 post_status: publish
@@ -12,6 +12,9 @@ taxonomy:
         - security
         - cicd
         - kubernetes
+custom_fields:
+    language: fr
+
 # custom_fields:
 #     field1: value 1
 #     field2: value 2        
@@ -44,8 +47,8 @@ Une « supply chain attack » est une cyberattaque qui cherche à nuire à une o
 * Pas gratuit :
   * Effort à budgéter
   * Capacité à réserver
-
 * Adapter la fréquence de mise à jour à sa capacité à déployer
+
 
 ![MAJ Deps](/_images/Blog_SupplyChain_03_MAJ_Deps.png)
 
@@ -54,6 +57,7 @@ Une « supply chain attack » est une cyberattaque qui cherche à nuire à une o
 * Considérer des outils de veille
 * Standardiser ses images de base !
 * Utiliser semver pour les mises à jour !
+
 
 ==> Test de non régression obligatoire
 
