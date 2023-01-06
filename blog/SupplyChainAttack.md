@@ -16,11 +16,9 @@ taxonomy:
 #     field1: value 1
 #     field2: value 2        
 ---
-
+![Broken Chain](/_images/chain-broken-nobg.png)
 
 # La Supply Chain Attack ?
-
-![Broken Chain](/_images/chain-broken-nobg.png)
 
 Changement de paradigme
 
