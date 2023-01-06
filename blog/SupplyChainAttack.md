@@ -35,3 +35,27 @@ Une « supply chain attack » est une cyberattaque qui cherche à nuire à une o
     * Découverte des dépendances inconnues
     * Transparence
     * Exiger les SBOM's
+
+
+## Mettre à jour régulièrement ses dépendances !
+
+* Nouvelles **vulnérabilités** et correctifs constants
+* Avantages collatéraux (corrections de bugs)
+* Responsabilité de l'équipe en charge du produit
+* Pas gratuit :
+  * Effort à budgéter
+  * Capacité à réserver
+
+* Adapter la fréquence de mise à jour à sa capacité à déployer
+
+
+* Réduire ses dépendances
+* Considérer des outils de veille
+* Standardiser ses images de base !
+* Utiliser semver pour les mises à jour !
+
+==> Test de non régression obligatoire
+
+
+
+
