@@ -62,6 +62,34 @@ Une « supply chain attack » est une cyberattaque qui cherche à nuire à une o
 
 ==> Test de non régression obligatoire !!!
 
+## Assurer l'immutabilité des containers
+
+* Capacité à ne pas changer 
+* Système sous contrôle, comportement reproductible
+* Limiter les manoeuvres latérales
+* Comment?
+    * Identifier les besoins de persistance (temporaires, longue durée)
+    * Désactiver les gestionnaires de package système
+    * Désactiver les crons
+    * Enforcer le système de fichier racine en mode lecture-seule
+    * Enforcer l'immutabilité du tag de l'image.
 
 
+![Docker images](/SupplyChainAttack/_images/Blog_SupplyChain_05_dockerimages.png)
 
+## Réduire la surface d'attaque des containers
+
+* Choix de images de base: 
+    * Docker officiels ou vérifiés
+    * Image Docker avec Dockerfile
+* Trop d'images exécutées en tant que Root
+* Images trop volumineuses
+    * Probabilité de Vulnérabilités, push/pull trop lent & registry énorme
+    * Alpine, Slim, Undistro (Chainguard Images) , Distroless, Scratch
+* Build image ≠ Runtime image
+    * → Multi-stage
+* Don’t Repeat Yourself 
+    * → Catalogue d'entreprise
+
+
+![Docker images](/SupplyChainAttack/_images/Blog_SupplyChain_05_dockerimages.svg)
